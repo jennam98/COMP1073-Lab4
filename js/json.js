@@ -57,6 +57,7 @@ function showTopFlavors(jsonObj) {
         let h2 = document.createElement('h2');
         let h4= document.createElement('h4');
         let image = document.createElement('img');//<img src ="choclate-mint.svg"
+        let p = document.createElement('p');
         let ul = document.createElement('ul');
         
 
@@ -64,6 +65,7 @@ function showTopFlavors(jsonObj) {
         h2.textContent=topFlavors[i]['name'];
         image.setAttribute('src','./images/' + topFlavors[i].image);
         h4.textContent=topFlavors[i]['calories'] + " calories";
+        p.textConent="Type: " + topFlavors[i]['type'];
 
        
 
