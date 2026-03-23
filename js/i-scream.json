@@ -25,6 +25,29 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+      "name": "Bubble Gum Bliss",
+      "calories": "400",
+      "type": "ice cream",
+      "ingredients": [
+        "Mini Gum Balls",
+        "Vanilla Base",
+        "Sprinkles"
+      ],
+      "image": "ice-cream-xtra1.svg"
+    },
+    {
+      "name": "Turtle Tornado",
+      "calories": "400",
+      "type": "ice cream",
+      "ingredients": [
+        "Turtle Chocolates",
+        "Caramel Swirl",
+        "Peanuts"
+      ],
+      "image": "ice-cream-xtra2.svg"
+      
     }
   ]
 }
