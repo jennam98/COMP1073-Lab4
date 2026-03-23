@@ -65,7 +65,7 @@ function showTopFlavors(jsonObj) {
         h2.textContent=topFlavors[i]['name'];
         image.setAttribute('src','./images/' + topFlavors[i].image);
         h4.textContent=topFlavors[i]['calories'] + " calories";
-        p.textConent="Type: " + topFlavors[i]['type'];
+        p.textContent="Type: " + topFlavors[i]['type'];
 
        
 
@@ -84,6 +84,7 @@ function showTopFlavors(jsonObj) {
         article.appendChild(h2);
         article.appendChild(image);
         article.appendChild(h4);
+        article.appendChild(p);
         article.appendChild(ul);
         
         // STEP 10i: Append each complete ARTICLE element to the SECTION element
